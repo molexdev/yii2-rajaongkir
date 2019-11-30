@@ -1,0 +1,33 @@
+{
+    "name": "molex/yii2-rajaongkir",
+    "description": "Yii2 Component - Client for RajaOngkir API",
+    "keywords": [
+        "yii",
+        "yii2",
+        "rajaongkir",
+        "component"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/molexdev/yii2-rajaongkir/issues",
+        "source": "https://github.com/molexdev/yii2-rajaongkir"
+    },
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "https://github.com/molexdev/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "yiisoft/yii2-httpclient": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "molex\\rajaongkir\\": "src"
+        }
+    }
+}
